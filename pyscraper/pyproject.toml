@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyscraper"
+version = "0.1.0"
+description = ""
+authors = ["ritzier <ritzierwheat@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.scripts]
+pyscraper = "pyscraper:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
